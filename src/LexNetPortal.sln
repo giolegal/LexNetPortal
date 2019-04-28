@@ -3,11 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexNetPortal", "LexNetPortal\LexNetPortal.csproj", "{CFA1FD2A-CA6A-4924-8275-86EE63CE4DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LexNetPortal", "LexNetPortal\LexNetPortal.csproj", "{CFA1FD2A-CA6A-4924-8275-86EE63CE4DC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB2A527F-10A2-4249-AF97-B1BA50DFB42F}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\.gitignore = ..\..\.gitignore
+		LexNetPortal\wwwroot\apidemo.html = LexNetPortal\wwwroot\apidemo.html
 	EndProjectSection
 EndProject
 Global
