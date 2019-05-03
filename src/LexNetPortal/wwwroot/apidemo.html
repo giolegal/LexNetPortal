@@ -222,7 +222,7 @@
                     <div class="fsRowBody fsCell fsFieldCell fsFirst fsLast fsLabelVertical fsSpan100"
                         id="fsCell76848184" aria-describedby="fsSupporting76848184" lang="en" fs-field-type="text"
                         fs-field-validation-name="Surnames">
-                        <label id="label76848184" class="fsLabel" for="field76848184">Surnames </label>
+                        <label id="label76848184" class="fsLabel" for="field76848184">Surname</label>
                         <input type="text" id="field76848184" name="field76848184" size="50" value=""
                             class="fsField fsFormatText   " />
                         <div id="fsSupporting76848184" class="fsSupporting">(On Passport) (if applicable & different to
@@ -1371,9 +1371,10 @@
                             document.getElementById(nextButtonId).innerHTML = "Next >>";
 
                             var result = JSON.parse(xhr.responseText);
-                            document.getElementById('field76848184').value = result.surnames;
+                            document.getElementById('field76848184').value = result.surname;
                             document.getElementById('field76692359').value = result.givenNames;
                             document.getElementById('field76692376').value = result.passportNumber;
+                            document.getElementById('field76692364').value = result.nationality;
 
                             /*
                              * document.getElementById('field76692361D').value = '01'; 
